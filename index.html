@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT | Marketplace</title>
+    <link rel="stylesheet" href="./css/style.min.css" />
+  </head>
+
+  <body class="main__body">
+    <div class="wrapper">
+      <!-- Header -->
+      <header class="header">
+  <!-- Navbar -->
+  <nav>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="#"><img src="./img/icons/logo.png" alt="logo" /></a>
+        </div>
+        <ul class="menu">
+          <li class="menu__item">
+            <a href="#auctions" class="menu__item-link text-menu">Auctions</a>
+          </li>
+          <li class="menu__item">
+            <a href="#how" class="menu__item-link text-menu">How it works</a>
+          </li>
+          <li class="menu__item">
+            <a href="#creators" class="menu__item-link text-menu">Creators</a>
+          </li>
+          <li class="menu__item">
+            <a href="#subscribe" class="menu__item-link text-menu">Subscribe</a>
+          </li>
+          <a class="menu__item-btn" href="#!">Connect Wallet</a>
+        </ul>
+        <div class="burger">
+          <span></span>
+        </div>
+      </div>
+      <div class="header__content content">
+        <div class="content__first">
+          <h1 class="content__first-title main-title" data-aos="slide-right" data-aos-easing="ease-in-sine">
+            Explore, Buy and Sell the
+            <span class="content__first-text">Best NFTs!</span>
+          </h1>
+          <div class="content__first-btns btn__item" data-aos="slide-right">
+            <a class="btn__item-btn accent-btn" href="#!">Explore</a>
+            <a class="btn__item-btn accent-btn" href="#!">Create</a>
+          </div>
+          <div class="content__first-progress progress" data-aos="slide-right">
+            <div class="progress__item">
+              <span class="progress__item-number">32k+</span>
+              <span class="progress__item-text">Artworks</span>
+            </div>
+            <div class="progress__item">
+              <span class="progress__item-number">20k+</span>
+              <span class="progress__item-text">Auctions</span>
+            </div>
+            <div class="progress__item">
+              <span class="progress__item-number">12k+</span>
+              <span class="progress__item-text">Creators</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="content__second second__item"
+          style="background: url('./img/header/header-item.jpg')"
+        >
+            <div class="second__item-top item__top">
+              <div class="item__top-left top__left">
+                <span class="top__left-item_text">Current bid</span>
+                <span class="top__left-item_num">0.99 ETH</span>
+              </div>
+              <div class="item__top-right top__right">
+                <span class="top__left-item_text">Ends in</span>
+                <span class="top__left-item_num">25 hrs</span>
+              </div>
+            </div>
+            <div class="second__item-bottom item__bottom">
+              <div class="item__bottom-left bottom__left">
+                <span class="bottom__left-item">Artist</span>
+                <span class="bottom__left-item-at">@wzard</span>
+              </div>
+              <div class="item__bottom__right bottom__right">
+                <a class="bottom__right-btn" href="#!">Start Bid</a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+      <!-- Main Page -->
+      <main class="page">
+        <section class="company">
+  <div class="container">
+    <div class="company__body" data-aos="flip-left">
+      <div class="body__item">
+        <img
+          class="body__item-img"
+          src="./img/company/company1.svg"
+          alt="company1"
+        />
+      </div>
+      <div class="body__item">
+        <img
+          class="body__item-img"
+          src="./img/company/company2.svg"
+          alt="company2"
+        />
+      </div>
+      <div class="body__item">
+        <img
+          class="body__item-img"
+          src="./img/company/company3.svg"
+          alt="company3"
+        />
+      </div>
+      <div class="body__item">
+        <img
+          class="body__item-img"
+          src="./img/company/company4.svg"
+          alt="company4"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+        <section id="auctions" class="auctions">
+  <div class="container">
+    <div class="auctions__top" data-aos="zoom-in">
+      <h2 class="auctions__top-title title">Live Auctions</h2>
+    </div>
+
+    <div class="swiper auctions-swipper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide auctions-slide">
+          <div class="auctions-slide-item auctions__item">
+            <div class="auctions__preview item__preview">
+              <img
+                class="item__preview-img"
+                src="./img/auctions/auctions1.png"
+                alt="auctions"
+              />
+              <span class="item__preview-text">03:18:24</span>
+            </div>
+
+            <div class="auctions__content">
+              <div class="auctions__content-profile profile">
+                <img
+                  class="profile-img"
+                  src="./img/auctions/avatar1.png"
+                  alt="profile1"
+                />
+                <div class="profile__info">
+                  <span class="profile__info-top">Virtual Art</span>
+                  <span class="profile__info-bottom">by @wzard</span>
+                </div>
+              </div>
+              <div class="auctions__content-like">
+                <img src="./img/auctions/heart.svg" alt="heart" />
+                <span>92</span>
+              </div>
+            </div>
+
+            <div class="auctions__byu">
+              <span class="byu-bid">Current Bid</span>
+              <span class="byu-price">4.89 ETH</span>
+            </div>
+
+            <a class="auctions__btn auctions__btn-link" href="#!"
+              >Place a bid</a
+            >
+          </div>
+        </div>
+        <div class="swiper-slide auctions-slide">
+          <div class="auctions-slide-item auctions__item">
+            <div class="auctions__preview item__preview">
+              <img
+                class="item__preview-img"
+                src="./img/auctions/auctions2.png"
+                alt="auctions"
+              />
+              <span class="item__preview-text">03:18:24</span>
+            </div>
+
+            <div class="auctions__content">
+              <div class="auctions__content-profile profile">
+                <img
+                  class="profile-img"
+                  src="./img/auctions/avatar1.png"
+                  alt="profile1"
+                />
+                <div class="profile__info">
+                  <span class="profile__info-top">Virtual Art</span>
+                  <span class="profile__info-bottom">by @wzard</span>
+                </div>
+              </div>
+              <div class="auctions__content-like">
+                <img src="./img/auctions/heart.svg" alt="heart" />
+                <span>92</span>
+              </div>
+            </div>
+
+            <div class="auctions__byu">
+              <span class="byu-bid">Current Bid</span>
+              <span class="byu-price">4.89 ETH</span>
+            </div>
+
+            <a class="auctions__btn auctions__btn-link" href="#!"
+              >Place a bid</a
+            >
+          </div>
+        </div>
+        <div class="swiper-slide auctions-slide">
+          <div class="auctions-slide-item auctions__item">
+            <div class="auctions__preview item__preview">
+              <img
+                class="item__preview-img"
+                src="./img/auctions/auctions3.png"
+                alt="auctions"
+              />
+              <span class="item__preview-text">03:18:24</span>
+            </div>
+
+            <div class="auctions__content">
+              <div class="auctions__content-profile profile">
+                <img
+                  class="profile-img"
+                  src="./img/auctions/avatar1.png"
+                  alt="profile1"
+                />
+                <div class="profile__info">
+                  <span class="profile__info-top">Virtual Art</span>
+                  <span class="profile__info-bottom">by @wzard</span>
+                </div>
+              </div>
+              <div class="auctions__content-like">
+                <img src="./img/auctions/heart.svg" alt="heart" />
+                <span>92</span>
+              </div>
+            </div>
+
+            <div class="auctions__byu">
+              <span class="byu-bid">Current Bid</span>
+              <span class="byu-price">4.89 ETH</span>
+            </div>
+
+            <a class="auctions__btn auctions__btn-link" href="#!"
+              >Place a bid</a
+            >
+          </div>
+        </div>
+      </div>
+        <div class="swiper-button-prev">
+          <span class="icon-arrow-right arrow-left"></span>
+        </div>
+        <div class="swiper-button-next">
+          <span class="icon-arrow-right arrow-right"></span>
+        </div>
+    </div>
+
+    <div class="auctions__view">
+      <a href="#!" class="accent-btn">View All</a>
+    </div>
+  </div>
+</section>
+
+        <section id="how" class="how">
+  <div class="container">
+    <h2 class="how__top-title title" data-aos="zoom-in">How it works</h2>
+    <div
+      class="how__items"
+      data-aos="fade-right"
+      data-aos-offset="300"
+      duration="2000"
+      data-aos-easing="ease-in-sine"
+    >
+      <div class="how__item">
+        <div class="how__icon">
+          <span class="icon-wallet"></span>
+        </div>
+        <h4 class="how__subtitle subtitle">Set up your wallet</h4>
+      </div>
+      <div class="how__item">
+        <div class="how__icon">
+          <span class="icon-collection"></span>
+        </div>
+        <h4 class="how__subtitle subtitle">Create your collection</h4>
+      </div>
+      <div class="how__item">
+        <div class="how__icon">
+          <span class="icon-plus"></span>
+        </div>
+        <h4 class="how__subtitle subtitle">Add your NFTs</h4>
+      </div>
+      <div class="how__item">
+        <div class="how__icon">
+          <span class="icon-plus"></span>
+        </div>
+        <h4 class="how__subtitle subtitle">List them for sale</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <section id="creators" class="creators">
+  <div class="container">
+    <div class="creators__top" data-aos="zoom-in">
+      <h2 class="creators__top-title title">Top Creators</h2>
+    </div>
+    <div class="creators__items">
+      <div
+        class="creators__item"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
+        <img
+          class="creators__item-img"
+          src="./img/creators/creators1.png"
+          alt="creators1"
+        />
+        <div class="creators__item-info item-info">
+          <span class="item-info_name">Wzard Dee</span>
+          <span class="item-info_price">4.89 ETH</span>
+        </div>
+        <div class="creators__item-price item-subinfo">
+          <span class="item-subinfo_num">33</span>
+          <span class="item-subinfo_text">Items</span>
+        </div>
+      </div>
+      <div
+        class="creators__item"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
+        <img
+          class="creators__item-img"
+          src="./img/creators/creators2.png"
+          alt="creators1"
+        />
+        <div class="creators__item-info item-info">
+          <span class="item-info_name">Wzard Dee</span>
+          <span class="item-info_price">4.89 ETH</span>
+        </div>
+        <div class="creators__item-price item-subinfo">
+          <span class="item-subinfo_num">33</span>
+          <span class="item-subinfo_text">Items</span>
+        </div>
+      </div>
+      <div
+        class="creators__item"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
+        <img
+          class="creators__item-img"
+          src="./img/creators/creators3.png"
+          alt="creators1"
+        />
+        <div class="creators__item-info item-info">
+          <span class="item-info_name">Wzard Dee</span>
+          <span class="item-info_price">4.89 ETH</span>
+        </div>
+        <div class="creators__item-price item-subinfo">
+          <span class="item-subinfo_num">33</span>
+          <span class="item-subinfo_text">Items</span>
+        </div>
+      </div>
+      <div
+        class="creators__item"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
+        <img
+          class="creators__item-img"
+          src="./img/creators/creators4.png"
+          alt="creators1"
+        />
+        <div class="creators__item-info item-info">
+          <span class="item-info_name">Wzard Dee</span>
+          <span class="item-info_price">4.89 ETH</span>
+        </div>
+        <div class="creators__item-price item-subinfo">
+          <span class="item-subinfo_num">33</span>
+          <span class="item-subinfo_text">Items</span>
+        </div>
+      </div>
+    </div>
+    <div class="creators__view">
+      <a href="#!" class="accent-btn">View All</a>
+    </div>
+  </div>
+</section>
+
+        <section id="subscribe" class="subscribe">
+  <div class="container">
+    <div
+      class="subscribe__body"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+    >
+      <h2 class="subscribe__title title">Ready for Next NFT Drop?</h2>
+      <form class="subscribe__form">
+        <input
+          class="subscribe__input"
+          type="subscribe__text"
+          placeholder="info@gmail.com"
+        />
+        <button class="subscribe__btn">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+  <div class="container">
+    <div class="footer__body">
+      <div class="footer__body-logo">
+        <img src="./img/icons/logo.png" alt="logo" />
+      </div>
+      <div class="footer__body-social body__social">
+        <p class="body__social-text">
+          Nec, enim sed lacus, magna pharetra. Phasellus tincidunt nulla
+          pharetra gravida est.
+        </p>
+        <div class="body__social-block social__block">
+          <a class="social__block-link icon-youtube" href="#!"></a>
+          <a class="social__block-link icon-twitter" href="#!"></a>
+          <a class="social__block-link icon-facebook" href="#!"></a>
+          <a class="social__block-link icon-google" href="#!"></a>
+        </div>
+        <p class="body__social-copy">All rights reserved@2022</p>
+      </div>
+      <div class="footer__body-about body__about">
+        <h4 class="body__about-title title-footer_menu">About Us</h4>
+        <ul class="body__about-list">
+          <li class="body__about-item">
+            <a class="body__about-link text-footer_menu" href="#!"
+              >About NFTs</a
+            >
+          </li>
+          <li class="body__about-item">
+            <a class="body__about-link text-footer_menu" href="#!"
+              >Live Auctions</a
+            >
+          </li>
+          <li class="body__about-item">
+            <a class="body__about-link text-footer_menu" href="#!">NFT Blog</a>
+          </li>
+          <li class="body__about-item">
+            <a class="body__about-link text-footer_menu" href="#!">Activity</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__body-support body__support">
+        <h4 class="body__support-title title-footer_menu">Support</h4>
+        <ul class="body__support-list">
+          <li class="body__support-item">
+            <a class="body__support-link text-footer_menu" href="#!"
+              >Help & Support</a
+            >
+          </li>
+          <li class="body__support-item">
+            <a class="body__support-link text-footer_menu" href="#!"
+              >Item Details</a
+            >
+          </li>
+          <li class="body__support-item">
+            <a class="body__support-link text-footer_menu" href="#!"
+              >Author Profile</a
+            >
+          </li>
+          <li class="body__support-item">
+            <a class="body__support-link text-footer_menu" href="#!"
+              >Collection</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+  </body>
+
+  <script src="./js/scripts.min.js"></script>
+</html>
